@@ -1,2 +1,3 @@
-# Project-01-HTML-CSS-Front-End-Dev-Course
-Project 1 - HTML/CSS - Future Collars Front-End Dev Course 
+# Project-01-HTML-CSS-Front-End-Developer-Course
+
+Project 1 - HTML/CSS - Future Collars Front-End Developer Course
