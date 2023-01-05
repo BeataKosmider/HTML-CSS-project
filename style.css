@@ -10,6 +10,7 @@ body {
   align-items: center;
   background-color: #4e4e4e;
   scroll-behavior: smooth;
+  position: relative;
 }
 ul {
   display: flex;
@@ -47,8 +48,8 @@ h2 {
   display: flex;
   align-items: center;
   color: #ffffff;
-  margin-top: 230px;
-  position: absolute;
+  padding-top: 178px;
+  position: relative;
 }
 h3 {
   font-weight: 700;
@@ -60,6 +61,7 @@ h3 {
 .container {
   margin: 0 auto;
   width: 960px;
+  height: 100%;
 }
 .banner {
   background-image: url(106-1920x1080-blur_5.jpeg);
@@ -70,7 +72,7 @@ h3 {
   height: 100%;
   background-color: rgb(0, 0, 0, 0.2);
 }
-#slogan {
+.slogan {
   width: 276px;
   height: 23.13px;
   font-weight: 700;
@@ -79,9 +81,8 @@ h3 {
   display: flex;
   align-items: center;
   color: #ffffff;
-  margin-top: 40px;
-  position: absolute;
-  margin-top: 338px;
+  padding-top: 63px;
+  position: relative;
 }
 .button {
   border-style: solid;
@@ -93,8 +94,8 @@ h3 {
   font-weight: 700;
   width: 164px;
   height: 40.74px;
-  position: absolute;
-  margin-top: 422px;
+  position: relative;
+  margin-top: 57px;
   transition-duration: 1s;
   transition-timing-function: linear;
 }
@@ -106,7 +107,7 @@ h3 {
   background-color: #f1f1f1;
   height: 672px;
 }
-.spec {
+.spec-title {
   width: 386px;
   height: 35px;
   font-weight: 700;
@@ -116,7 +117,7 @@ h3 {
   align-items: center;
   text-align: center;
   color: #152d41;
-  margin-top: 50px;
+  padding-top: 50px;
 }
 #photo1 {
   height: 197px;
@@ -126,7 +127,7 @@ h3 {
   background-image: url(mloda-kobieta-w-ciazy-z-dlugimi-ciemnymi-wlosami-w-tropikalnej-lokalizacji_1321-4055.jpg);
   background-size: cover;
   position: relative;
-  margin-top: 164px;
+  margin-top: 78px;
 }
 #photo2 {
   height: 197px;
@@ -136,7 +137,7 @@ h3 {
   background-image: url(young-man-working-on-laptop-next-to-his-bike.jpg);
   background-size: cover;
   position: relative;
-  margin-top: 60px;
+  margin-top: 78px;
 }
 .text1 {
   width: 698px;
@@ -147,8 +148,8 @@ h3 {
   line-height: 21px;
   color: #000000;
   position: relative;
-  margin-top: 155px;
-  margin-left: 65px;
+  margin-top: 78px;
+  margin-left: 60px;
 }
 .text2 {
   font-size: 18px;
@@ -160,8 +161,8 @@ h3 {
   font-weight: 400;
   text-align: right;
   position: relative;
-  margin-top: 90px;
-  margin-right: 65px;
+  margin-top: 78px;
+  margin-right: 60px;
 }
 .person {
   display: flex;
@@ -176,16 +177,15 @@ h3 {
 .offer {
   background-color: #405d78;
   height: 689px;
-  top: 947px;
 }
-#offer {
+.offer-title {
   width: 501px;
   height: 42px;
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
   color: #ffffff;
-  margin-top: 50px;
+  padding-top: 50px;
 }
 .item {
   width: 198px;
@@ -212,7 +212,7 @@ h3 {
   gap: 63px;
   justify-content: center;
   align-content: space-around;
-  padding-top: 174px;
+  padding-top: 83px;
 }
 .point {
   height: 22px;
@@ -233,12 +233,12 @@ footer {
   display: flex;
   justify-content: space-between;
 }
-#footer {
+.copyright {
   display: inline;
   margin-left: 94px;
   padding: 25px 0px;
 }
-#icon {
+.icon {
   float: right;
   display: flexbox;
   justify-content: space-between;
