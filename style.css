@@ -5,17 +5,19 @@ body {
   padding: 0;
   font-family: "Roboto", sans-serif;
 }
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
 .menu {
-  height: 50px;
   align-items: center;
   background-color: #4e4e4e;
-  scroll-behavior: smooth;
   position: relative;
+  padding: 13px 90px 16px 94px;
 }
 ul {
   display: flex;
   text-align: center;
   align-items: center;
+  justify-content: center;
 }
 li a {
   color: #ffffff;
@@ -23,15 +25,13 @@ li a {
   line-height: 21.09px;
   text-decoration: none;
   display: block;
-  padding: 10px;
 }
 .left {
   font-weight: 700;
-  margin-left: 50px;
 }
 .right {
   font-weight: 400;
-  margin-right: 90px;
+  margin-right: 46px;
 }
 .spacer {
   flex: 1;
@@ -65,7 +65,7 @@ h3 {
 }
 .banner {
   background-image: url(106-1920x1080-blur_5.jpeg);
-  height: 100vh;
+  height: calc(100vh - 50px);
 }
 .banner .overlay {
   width: 100%;
@@ -105,7 +105,7 @@ h3 {
 }
 .specialist {
   background-color: #f1f1f1;
-  height: 672px;
+  padding: 50px 0px;
 }
 .spec-title {
   width: 386px;
@@ -117,51 +117,42 @@ h3 {
   align-items: center;
   text-align: center;
   color: #152d41;
-  padding-top: 50px;
+  padding-top: 0px;
 }
-#photo1 {
+.photo {
   height: 197px;
   width: 197px;
   border-radius: 50%;
-  background-color: #c4c4c4;
-  background-image: url(mloda-kobieta-w-ciazy-z-dlugimi-ciemnymi-wlosami-w-tropikalnej-lokalizacji_1321-4055.jpg);
   background-size: cover;
   position: relative;
   margin-top: 78px;
 }
+#photo1 {
+  background-color: #c4c4c4;
+  background-image: url(mloda-kobieta-w-ciazy-z-dlugimi-ciemnymi-wlosami-w-tropikalnej-lokalizacji_1321-4055.jpg);
+}
 #photo2 {
-  height: 197px;
-  width: 197px;
-  border-radius: 50%;
   background-color: #907d7d;
   background-image: url(young-man-working-on-laptop-next-to-his-bike.jpg);
-  background-size: cover;
+}
+.text {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  color: #000000;
   position: relative;
   margin-top: 78px;
 }
 .text1 {
   width: 698px;
   height: 104px;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 21px;
-  color: #000000;
-  position: relative;
-  margin-top: 78px;
   margin-left: 60px;
 }
 .text2 {
-  font-size: 18px;
-  line-height: 21px;
-  color: #000000;
   width: 698px;
   height: 145px;
-  font-style: normal;
-  font-weight: 400;
   text-align: right;
-  position: relative;
-  margin-top: 78px;
   margin-right: 60px;
 }
 .person {
@@ -176,7 +167,7 @@ h3 {
 }
 .offer {
   background-color: #405d78;
-  height: 689px;
+  padding: 50px 0px;
 }
 .offer-title {
   width: 501px;
@@ -185,7 +176,7 @@ h3 {
   font-size: 36px;
   line-height: 42px;
   color: #ffffff;
-  padding-top: 50px;
+  padding-top: 0px;
 }
 .item {
   width: 198px;
@@ -224,7 +215,6 @@ h3 {
   left: -10px;
 }
 footer {
-  height: 71px;
   background: #4e4e4e;
   font-weight: 700;
   font-size: 18px;
@@ -232,19 +222,15 @@ footer {
   color: #ffffff;
   display: flex;
   justify-content: space-between;
+  padding: 25px 82px 16px 94px;
 }
 .copyright {
   display: inline;
-  margin-left: 94px;
-  padding: 25px 0px;
 }
 .icon {
   float: right;
   display: flexbox;
-  justify-content: space-between;
-  margin-right: 82px;
   justify-content: center;
   align-items: center;
-  padding: 25px 0px;
-  font-size: 30px;
+  font-size: 31px;
 }
