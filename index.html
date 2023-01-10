@@ -21,27 +21,31 @@
   <body>
     <header>
       <nav class="menu">
-        <ul>
-          <li><a href="#one" class="left">moja firma</a></li>
-          <li class="spacer" aria-hidden="true"></li>
-          <li><a href="#two" class="right">o nas</a></li>
-          <li><a href="#three" class="right">oferta</a></li>
-          <li><a href="#kontakt" id="inactive">kontakt</a></li>
-        </ul>
+        <div class="container">
+          <ul>
+            <li><a href="#one" class="left">moja firma</a></li>
+            <li class="spacer" aria-hidden="true"></li>
+            <li><a href="#two" class="right">o nas</a></li>
+            <li><a href="#three" class="right">oferta</a></li>
+            <li><a href="#kontakt" id="inactive">kontakt</a></li>
+          </ul>
+        </div>
       </nav>
     </header>
     <main>
       <section class="banner" id="one">
         <div class="overlay">
           <div class="container">
-            <h2>Nasza firma oferuje najwyższej jakości produkty.</h2>
-            <div class="slogan">Nie wierz nam na słowo - sprawdź</div>
-            <input
-              type="button"
-              onclick="location.href='#three';"
-              value="oferta"
-              class="button"
-            />
+            <div class="center">
+              <h2>Nasza firma oferuje najwyższej jakości produkty.</h2>
+              <div class="slogan">Nie wierz nam na słowo - sprawdź</div>
+              <input
+                type="button"
+                onclick="location.href='#three';"
+                value="oferta"
+                class="button"
+              />
+            </div>
           </div>
         </div>
       </section>
@@ -94,12 +98,14 @@
       </section>
     </main>
     <footer>
-      <div class="copyright">
-        Nazwa firmy - wszelkie prawa zastrzeżone, 2019
-      </div>
-      <div class="icon">
-        <i class="fa-brands fa-instagram"></i>
-        <i class="fa-brands fa-square-facebook"></i>
+      <div class="container">
+        <div class="copyright">
+          Nazwa firmy - wszelkie prawa zastrzeżone, 2019
+        </div>
+        <div class="icon">
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-square-facebook"></i>
+        </div>
       </div>
     </footer>
   </body>

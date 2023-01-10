@@ -10,7 +10,6 @@ body {
 .menu {
   align-items: center;
   background-color: #4e4e4e;
-  position: relative;
   padding: 13px 90px 16px 94px;
 }
 ul {
@@ -30,7 +29,6 @@ li a {
   font-weight: 700;
 }
 .right {
-  font-weight: 400;
   margin-right: 46px;
 }
 .spacer {
@@ -48,8 +46,6 @@ h2 {
   display: flex;
   align-items: center;
   color: #ffffff;
-  padding-top: 178px;
-  position: relative;
 }
 h3 {
   font-weight: 700;
@@ -62,6 +58,13 @@ h3 {
   margin: 0 auto;
   width: 960px;
   height: 100%;
+}
+.center {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .banner {
   background-image: url(106-1920x1080-blur_5.jpeg);
@@ -82,22 +85,17 @@ h3 {
   align-items: center;
   color: #ffffff;
   padding-top: 63px;
-  position: relative;
 }
 .button {
-  border-style: solid;
-  border-color: #ffffff;
-  border-width: 3px;
+  border: 3px solid #ffffff;
   background: none;
   color: #ffffff;
   font-size: 18px;
   font-weight: 700;
   width: 164px;
   height: 40.74px;
-  position: relative;
   margin-top: 57px;
-  transition-duration: 1s;
-  transition-timing-function: linear;
+  transition: 1s linear;
 }
 .button:hover {
   background-color: #ffffff;
@@ -124,7 +122,7 @@ h3 {
   width: 197px;
   border-radius: 50%;
   background-size: cover;
-  position: relative;
+  text-align: center;
   margin-top: 78px;
 }
 #photo1 {
@@ -137,11 +135,8 @@ h3 {
 }
 .text {
   font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 21px;
   color: #000000;
-  position: relative;
   margin-top: 78px;
 }
 .text1 {
@@ -183,7 +178,6 @@ h3 {
   height: 193.78px;
   background: #f1f1f1;
   flex-direction: row;
-  font-weight: 400;
   font-size: 24px;
   line-height: 28px;
   display: flex;
@@ -192,9 +186,9 @@ h3 {
   text-align: center;
   color: #000000;
   position: relative;
+  transition-duration: 0.5s;
 }
 .item:hover {
-  transition-duration: 0.5s;
   transform: scale(1.05);
 }
 .grid-container {
@@ -229,8 +223,11 @@ footer {
 }
 .icon {
   float: right;
-  display: flexbox;
+  display: flex;
   justify-content: center;
   align-items: center;
   font-size: 31px;
+}
+.icon > i {
+  padding-left: 18px;
 }
