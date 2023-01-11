@@ -21,7 +21,7 @@ ul {
 li a {
   color: #ffffff;
   font-size: 18px;
-  line-height: 21.09px;
+  line-height: 21px;
   text-decoration: none;
   display: block;
 }
@@ -38,8 +38,7 @@ li a {
   cursor: not-allowed;
 }
 h2 {
-  width: 577px;
-  height: 46.11px;
+  width: 55%;
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
@@ -60,14 +59,13 @@ h3 {
   height: 100%;
 }
 .center {
-  width: 100%;
-  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 .banner {
-  background-image: url(106-1920x1080-blur_5.jpeg);
+  background: url(106-1920x1080-blur_5.jpeg) no-repeat;
+  background-size: cover;
   height: calc(100vh - 50px);
 }
 .banner .overlay {
@@ -76,15 +74,15 @@ h3 {
   background-color: rgb(0, 0, 0, 0.2);
 }
 .slogan {
-  width: 276px;
-  height: 23.13px;
+  width: 30%;
   font-weight: 700;
   font-size: 18px;
   line-height: 21px;
   display: flex;
   align-items: center;
   color: #ffffff;
-  padding-top: 63px;
+  margin-top: 63px;
+  margin-bottom: 57px;
 }
 .button {
   border: 3px solid #ffffff;
@@ -93,8 +91,7 @@ h3 {
   font-size: 18px;
   font-weight: 700;
   width: 164px;
-  height: 40.74px;
-  margin-top: 57px;
+  height: 41px;
   transition: 1s linear;
 }
 .button:hover {
@@ -106,8 +103,7 @@ h3 {
   padding: 50px 0px;
 }
 .spec-title {
-  width: 386px;
-  height: 35px;
+  width: 30%;
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
@@ -115,21 +111,20 @@ h3 {
   align-items: center;
   text-align: center;
   color: #152d41;
-  padding-top: 0px;
 }
 .photo {
   height: 197px;
   width: 197px;
   border-radius: 50%;
   background-size: cover;
-  text-align: center;
+  background-position: center;
   margin-top: 78px;
 }
-#photo1 {
+.photo1 {
   background-color: #c4c4c4;
   background-image: url(mloda-kobieta-w-ciazy-z-dlugimi-ciemnymi-wlosami-w-tropikalnej-lokalizacji_1321-4055.jpg);
 }
-#photo2 {
+.photo2 {
   background-color: #907d7d;
   background-image: url(young-man-working-on-laptop-next-to-his-bike.jpg);
 }
@@ -140,13 +135,11 @@ h3 {
   margin-top: 78px;
 }
 .text1 {
-  width: 698px;
-  height: 104px;
+  width: 73%;
   margin-left: 60px;
 }
 .text2 {
-  width: 698px;
-  height: 145px;
+  width: 73%;
   text-align: right;
   margin-right: 60px;
 }
@@ -165,17 +158,15 @@ h3 {
   padding: 50px 0px;
 }
 .offer-title {
-  width: 501px;
-  height: 42px;
+  width: 55%;
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
   color: #ffffff;
-  padding-top: 0px;
 }
 .item {
   width: 198px;
-  height: 193.78px;
+  height: 194px;
   background: #f1f1f1;
   flex-direction: row;
   font-size: 24px;
@@ -197,7 +188,7 @@ h3 {
   gap: 63px;
   justify-content: center;
   align-content: space-around;
-  padding-top: 83px;
+  margin-top: 83px;
 }
 .point {
   height: 22px;
